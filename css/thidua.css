@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    background: #faa871;
+}
+/* header/blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #70abee;
+    color: rgb(230, 23, 23);
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+/* style the top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(245, 103, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: crimson;
+    color:darkgray;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-family: helvetica;
+    border-collapse:collapse;
+    border-color: green;
+    height: 900px;
+    }
+    .main{
+    background-color: azure;
+    }
+    .main h2{
+    text-align: center;
+    color:red;
+    }
+    .hang1{
+    height: 50px;
+    background-color:thistle;
+    }
+    .hang2{
+    font-weight: bold;
+    background-color:bisque;
+    }
+    .hang2:hover{
+    color:blanchedalmond;
+    text-decoration: underline;
+    }
+    .hang4{
+    background-color:beige;
+    }
+    .hang5{
+    background-color:aquamarine
+    }
+    #footer b{
+        float: left; 
+        margin:0; 
+        text-align:center;
+    }
+    #footer img {
+        width:10%;
+        height: 90px;
+    }
+    #footer{
+        box-shadow: 0 0 3px gray;
+        border-radius: 3% 3% 3% 3%;
+        background: linear-gradient(-45deg, #f39477, #e974a1, #55badf, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 130px;
+    }
+    @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+}

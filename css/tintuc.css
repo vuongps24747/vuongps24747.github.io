@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgb(253, 212, 212);
+    text-align: center;
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: red;
+    border: 1px solid gray;
+  }
+  .header h1 {
+    font-size: 40px;
+  }
+  .header p {
+    font-size: 35px;
+    color: black;
+    font-style: italic;
+  }
+  #slide{
+    height: 60px;
+    background-color:rgb(253, 212, 212);
+  }
+  #slide h2{
+    line-height: 30px;
+    font-size: 30px;
+    color: maroon;
+    font-style: italic;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: red;
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: white;
+    color: red;
+  }
+  .images {
+    width: 100%;
+    height: 200px;
+  }
+  .card-news {
+    width: 22%;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    border: 1px solid gray;
+  }
+  .anh:hover {
+    transform: scale(1.2);
+  }
+  .anh {
+    display: block;
+    transition: all 300ms;
+  }
+  .card-news:hover {
+  color: white;  
+  background-color: rgb(212, 61, 61);
+  
+  }
+  .anh>.images{
+    width: 250px;
+    height: 250px;
+  }
+  .footer {
+    padding: 10px;
+    
+    margin-top: 10px;
+    color: red;
+    font-size: small;
+    font-style: italic;
+    border: 1px solid gray;
+  
+  }

@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding: 10px;
+    background: #faa871;
+    text-align: center;
+}
+/* header/blog Title */
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #70abee;
+    color: rgb(230, 23, 23);
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.header p {
+    font-size: 20px;
+}
+/* style the top navigation bar*/
+.topnav {
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(245, 103, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: crimson;
+    color:darkgray;
+}
+.b102 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 2px gray;
+    font-family: 'Montserrat';
+}
+
+.form-group {
+    margin: 10px 0;
+    font-family: 'Montserrat';
+}
+
+.form-control {
+    width: 50%;
+    padding: 5px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-family: 'Montserrat';
+}
+
+.form-group label {
+    font-family: 'Montserrat';
+}
+
+.form-control:focus {
+    background-color: rgb(176, 223, 204);
+    box-shadow: 0 0 3px rgb(102, 107, 72);
+    border: 1px solid rgb(163, 207, 182);
+    font-family: 'Montserrat';
+}
+
+.form-button {
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(100, 43, 43);
+    box-shadow: inset 0 0 20px blue;
+    font-family: 'Montserrat';
+}
+
+.form-button:hover {
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+
+.form-button:disabled {
+    color: darkgrey;
+    box-shadow: inset 0 0 20px gray;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: blanchedalmond;
+    margin-top: 10px;
+    bottom : 0;
+    animation: scrolling 2s line infinite;
+}
